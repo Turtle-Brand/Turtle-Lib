@@ -3,7 +3,7 @@ A dynamic UI Library for ROBLOX Experiences. Made in the style of the original T
 
 ## Made with ❤️ by Intrer#0421
 
-Documentation:
+**Documentation**:
 
 Load library:
 ```
