@@ -3,7 +3,7 @@ A dynamic UI Library for ROBLOX Experiences. Made in the style of the original T
 
 ## Made with ❤️ by Intrer#0421
 
-###Documentation:
+Documentation:
 
 Load library:
 ```
@@ -33,7 +33,6 @@ end)
 ```
 
 Add a color picker:
-
 ```
 -- Name, default color (set to true to make the default rainbow), callback
 
