@@ -10,7 +10,7 @@ A dynamic UI Library for ROBLOX Experiences. Made in the style of the original T
 
 Load library:
 ```lua
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/miroeramaa/TurtleLib/main/TurtleUiLib.lua"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Turtle-Brand/Turtle-Lib/main/source.lua"))()
 ```
 
 Add windows:
