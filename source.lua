@@ -172,8 +172,16 @@ function library:Window(name)
     Window.ZIndex = 1 + zindex
 
     local functions = {}
+    functions.__index = functions
+    functions.Ui = UiWindow
+
     sizes[winCount] = 33
     listOffset[winCount] = 10
+
+    function functions:Destroy()
+        self.Ui:Destroy()
+    end
+
     function functions:Button(name, callback)
         local name = name or "Button"
         local callback = callback or function() end
