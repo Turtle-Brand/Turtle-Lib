@@ -209,6 +209,7 @@ function library:Window(name)
 
         pastSliders[winCount] = false
     end
+    
     function functions:Label(text, color)
         local color = color or Color3.fromRGB(220, 221, 225)
 

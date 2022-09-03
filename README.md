@@ -18,6 +18,11 @@ Add windows:
 local window = library:Window("Window")
 ```
 
+Destroy windows:
+```lua
+window:Destroy()
+```
+
 Add a button:
 ```lua
 -- Name of button, callback
